@@ -1,0 +1,6 @@
+name: t
+runs:
+  using: composite
+  steps:
+    - run: echo ACTION_OK
+      shell: bash
